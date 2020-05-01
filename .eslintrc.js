@@ -43,6 +43,7 @@ module.exports = {
       },
     ],
     "template-curly-spacing": ["off"],
+    "@typescript-eslint/no-empty-function": "off", // Because of "DefPromise" constructor which accepts a noop executor function by default.
   },
   overrides: [
     {

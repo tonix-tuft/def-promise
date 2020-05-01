@@ -29,7 +29,7 @@
 const privateScope = new WeakMap();
 
 export default class DefPromise extends Promise {
-  constructor(executor) {
+  constructor(executor = () => {}) {
     let resolve, reject;
     let isSettled = false,
       hasResolved = false,
