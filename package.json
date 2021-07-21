@@ -1,6 +1,6 @@
 {
   "name": "def-promise",
-  "version": "2.9.0",
+  "version": "2.10.0",
   "description": "A naive deferred promise, nothing more, nothing less.",
   "keywords": [
     "promise",
